@@ -1,0 +1,4 @@
+-cpu=300HN
+-output="C:\WorkSpace\hosv4-practice\h8sample\Debug\h8sample.lib"
+-head=runtime,new
+-lang=c

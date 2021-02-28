@@ -1,0 +1,51 @@
+Optimizing Linkage Editor (V.9.05.01.000)         14-Dec-2020 19:44:37
+
+*** Options ***
+
+-subcommand=C:\WorkSpace\hosv4-practice\h8sample\Debug\h8sample.hlk
+-entry=_startup
+-define=STACK=0FF80
+-noprelink
+-rom=D=X
+-nomessage
+-list="C:\WorkSpace\hosv4-practice\h8sample\Debug\h8sample.map"
+-nooptimize
+-start=VECT,P,C,D/00,B,X/0F780
+-nologo
+-stack
+-input="C:\WorkSpace\hosv4-practice\h8sample\Debug\crt0.obj"
+-input="C:\WorkSpace\hosv4-practice\h8sample\Debug\h8t_sci.obj"
+-input="C:\WorkSpace\hosv4-practice\h8sample\Debug\kernel_cfg.obj"
+-input="C:\WorkSpace\hosv4-practice\h8sample\Debug\led.obj"
+-input="C:\WorkSpace\hosv4-practice\h8sample\Debug\lsen.obj"
+-input="C:\WorkSpace\hosv4-practice\h8sample\Debug\motor.obj"
+-input="C:\WorkSpace\hosv4-practice\h8sample\Debug\ostimer.obj"
+-input="C:\WorkSpace\hosv4-practice\h8sample\Debug\sample.obj"
+-input="C:\WorkSpace\hosv4-practice\h8sample\Debug\spk.obj"
+-input="C:\WorkSpace\hosv4-practice\h8sample\Debug\sw.obj"
+-input="C:\WorkSpace\hosv4-practice\h8sample\Debug\vector.obj"
+-library="C:\WorkSpace\hosv4-practice\h8sample\Debug\h8sample.lib"
+-library="C:\WorkSpace\hosv4-practice\hosv4\Debug\hosv4.lib"
+-output="C:\WorkSpace\hosv4-practice\h8sample\Debug\h8sample.abs"
+-end
+
+*** Error information ***
+
+** L1500 (W) Cannot check stack size
+
+*** Mapping List ***
+
+SECTION                            START      END         SIZE   ALIGN
+
+VECT
+                                  00000000  00000041        42   2
+P
+                                  00000042  00001deb      1daa   2
+C
+                                  00001dec  00001e9b        b0   2
+D
+                                  00001e9c  00001edb        40   2
+B
+                                  0000f780  0000fb33       3b4   2
+X
+                                  0000fb34  0000fb73        40   2

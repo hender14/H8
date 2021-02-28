@@ -1,0 +1,63 @@
+#line 1 "system.cfg"
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+
+INCLUDE("\"sample.h\"");
+INCLUDE("\"ostimer.h\"");
+INCLUDE("\"h8t_sci.h\"");
+
+
+ 
+HOS_KERNEL_HEAP(0);			 
+HOS_TIM_TIC(1, 1);			 
+HOS_MAX_TPRI(8);			 
+HOS_MIN_INTNO(0);			 
+HOS_MAX_INTNO(32);			 
+HOS_MAX_TSKID(8);			 
+
+
+
+
+ATT_INI({TA_HLNG, 0, Main_init});
+ATT_INI({TA_HLNG, 0, Ostimer_init});
+
+
+
+
+
+ATT_ISR({TA_HLNG, 0, 23, SCI3_RxiHandler});
+ATT_ISR({TA_HLNG, 0, 29, Ostimer_interruptHandler});
+
+
+
+
+CRE_TSK(TSKID_MAIN, {TA_HLNG|TA_ACT, 0, MAIN, 1, 128, NULL});
+CRE_TSK(TSKID_TASK1, {TA_HLNG|TA_ACT, 0, TASK1, 3, 128, NULL});
+CRE_TSK(TSKID_TASK2, {TA_HLNG|TA_ACT, 0, TASK2, 2, 128, NULL});
+
+
+CRE_FLG(FLGID_FLG1,  {(TA_TPRI | TA_WSGL | TA_CLR), 0});
+
+
+
+
+
+ 
+
+
+
+
+ 
+
+
+
+ 
+ 
+ 

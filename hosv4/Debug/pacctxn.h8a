@@ -1,0 +1,8 @@
+"C:\WorkSpace\hosv4\hosv4\src\h83\htc\pacctxn.src"
+-cpu=300HN
+-debug
+-object="C:\WorkSpace\hosv4\hosv4\Debug\pacctxn.obj"
+-nolist
+-nologo
+-chgincpath
+-errorpath

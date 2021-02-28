@@ -1,0 +1,10 @@
+-cpu=300HN
+-include="C:\WorkSpace\hosv4\hosv4\include\","C:\WorkSpace\hosv4\hosv4\include\h83"
+-lang=c
+-object="C:\WorkSpace\hosv4\hosv4\Debug\ini_mpf.obj"
+-outcode=sjis
+-debug
+-nolist
+-chgincpath
+"C:\WorkSpace\hosv4\hosv4\src\kernel\mpf\ini_mpf.c"
+-nologo

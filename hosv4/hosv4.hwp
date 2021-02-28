@@ -1,0 +1,744 @@
+[HIMDBVersion]
+2.0
+[DATABASE_VERSION]
+"2.8" 
+[PROJECT_DETAILS]
+"hosv4" "C:\WorkSpace\hosv4-practice\hosv4" "C:\WorkSpace\hosv4-practice\hosv4\hosv4.hwp" "H8S,H8/300" "Renesas H8S,H8/300 Standard" "Library" "300H" "Other" 
+[INFORMATION]
+"プロジェクト情報がありません" 
+[TOOL_CHAIN]
+"Renesas H8S,H8/300 Standard Toolchain" "7.0.0.0" 
+[CONFIGURATIONS]
+"Debug" "C:\WorkSpace\hosv4-practice\hosv4\Debug" 
+"Release" "C:\WorkSpace\hosv4-practice\hosv4\Release" 
+[BUILD_PHASES]
+"Renesas H8S,H8/300 Assembler" 1 
+"Renesas H8S,H8/300 C/C++ Compiler" 1 
+"Renesas H8S,H8/300 C/C++ Library Generator" 1 
+"Renesas OptLinker" 1 
+[TOOL_ENVIRONMENT]
+[EXTENSIONS]
+"Absolute file" "ABS" 
+"Assembly include file" "INC" 
+"Assembly list file" "LIS" 
+"Assembly source file" "ASM" 
+"Assembly source file" "MAR" 
+"Assembly source file" "SRC" 
+"Binary file" "BIN" 
+"C header file" "H" 
+"C list file" "LST" 
+"C source file" "C" 
+"C++ header file" "HPP" 
+"C++ list file" "LPP" 
+"C++ source file" "CC" 
+"C++ source file" "CP" 
+"C++ source file" "CPP" 
+"CPU information file" "CPU" 
+"Calling information file" "CAL" 
+"Debug information file" "DBG" 
+"Expanded assembly source file" "EXP" 
+"Hex file" "HEX" 
+"Library file" "LIB" 
+"Library information file" "LBP" 
+"Linkage map file" "MAP" 
+"Linkage symbol file" "FSY" 
+"Object file" "OBJ" 
+"Optimize map file" "bls" 
+"Preprocessed C source file" "P" 
+"Preprocessed C++ source file" "PP" 
+"Profile file" "PRO" 
+"Relocatable file" "REL" 
+"S-Record file" "MOT" 
+"Stack information file" "SNI" 
+"TD include object file" "RTI" 
+[FILE_GROUPS]
+"Absolute file" "BIN" "NONE" "" 
+"Assembly include file" "TEXT" "EDITOR" "" 
+"Assembly list file" "TEXT" "EDITOR" "" 
+"Assembly source file" "TEXT" "EDITOR" "" 
+"Binary file" "BIN" "NONE" "" 
+"C header file" "TEXT" "EDITOR" "" 
+"C list file" "TEXT" "EDITOR" "" 
+"C source file" "TEXT" "EDITOR" "" 
+"C++ header file" "TEXT" "EDITOR" "" 
+"C++ list file" "TEXT" "EDITOR" "" 
+"C++ source file" "TEXT" "EDITOR" "" 
+"CPU information file" "BIN" "NONE" "" 
+"Calling information file" "BIN" "NONE" "" 
+"Debug information file" "BIN" "NONE" "" 
+"Expanded assembly source file" "TEXT" "EDITOR" "" 
+"Hex file" "TEXT" "EDITOR" "" 
+"Library file" "BIN" "NONE" "" 
+"Library information file" "TEXT" "EDITOR" "" 
+"Linkage map file" "TEXT" "EDITOR" "" 
+"Linkage symbol file" "TEXT" "EDITOR" "" 
+"Object file" "BIN" "NONE" "" 
+"Optimize map file" "BIN" "NONE" "" 
+"Preprocessed C source file" "TEXT" "EDITOR" "" 
+"Preprocessed C++ source file" "TEXT" "EDITOR" "" 
+"Profile file" "BIN" "NONE" "" 
+"Relocatable file" "BIN" "NONE" "" 
+"S-Record file" "TEXT" "EDITOR" "" 
+"Stack information file" "BIN" "NONE" "" 
+"TD include object file" "BIN" "NONE" "" 
+[ASSOCIATED_APPLICATIONS]
+[TOOLCHAIN_PHASE]
+"Renesas H8S,H8/300 Assembler" 
+"Renesas H8S,H8/300 C/C++ Compiler" 
+"Renesas H8S,H8/300 C/C++ Library Generator" 
+"Renesas OptLinker" 
+[UTILITY_PHASE]
+[CUSTOM_PHASES]
+[CUSTOM_PHASE_INPUT_GROUP]
+[CUSTOM_PHASE_OUTPUT_SYNTAX]
+[BUILD_ORDER]
+"Renesas H8S,H8/300 C/C++ Library Generator" 1 
+"Renesas H8S,H8/300 C/C++ Compiler" 1 
+"Renesas H8S,H8/300 Assembler" 1 
+"Renesas OptLinker" 1 
+[BUILD_PHASE_DETAILS]
+"Renesas H8S,H8/300 Assembler" "Assembly source file|Linkage symbol file" 1 
+"Renesas H8S,H8/300 C/C++ Compiler" "C source file|C++ source file" 1 
+"Renesas H8S,H8/300 C/C++ Library Generator" "" 0 
+"Renesas OptLinker" "Object file|Library file|Relocatable file" 0 
+[BUILD_FILE_ORDER_Assembly source file]
+"Renesas H8S,H8/300 Assembler" 1 
+[BUILD_FILE_ORDER_C source file]
+"Renesas H8S,H8/300 C/C++ Compiler" 1 
+[BUILD_FILE_ORDER_C++ source file]
+"Renesas H8S,H8/300 C/C++ Compiler" 1 
+[BUILD_FILE_ORDER_Linkage symbol file]
+"Renesas H8S,H8/300 Assembler" 1 
+[SCRAP]
+"Project Generator Setup File" "" 
+[MAPPINGS]
+"Assembly source file" "Renesas H8S,H8/300 Assembler" "Renesas H8S,H8/300 C/C++ Compiler" 
+"Library file" "Renesas OptLinker" "Renesas H8S,H8/300 C/C++ Library Generator" 
+"Object file" "Renesas OptLinker" "Renesas H8S,H8/300 Assembler" 
+"Object file" "Renesas OptLinker" "Renesas H8S,H8/300 C/C++ Compiler" 
+[PROJECT_FILES]
+"C:\WorkSpace\hosv4-practice\hosv4\src\h83\chg_imsk.c" "User" "h83" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\h83\fchg_imk.c" "User" "h83" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\h83\fget_imk.c" "User" "h83" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\h83\get_imsk.c" "User" "h83" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\h83\htc\pacctxn.src" "User" "h83|htc" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\h83\htc\pacintn.src" "User" "h83|htc" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\h83\pacini.c" "User" "h83" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\alm\alm_hdr.c" "User" "kernel|alm" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\alm\ini_alm.c" "User" "kernel|alm" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\alm\sta_alm.c" "User" "kernel|alm" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\alm\stp_alm.c" "User" "kernel|alm" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\cyc\acre_cyc.c" "User" "kernel|cyc" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\cyc\cre_cyc.c" "User" "kernel|cyc" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\cyc\cyc_hdr.c" "User" "kernel|cyc" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\cyc\del_cyc.c" "User" "kernel|cyc" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\cyc\ini_cyc.c" "User" "kernel|cyc" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\cyc\kcre_cyc.c" "User" "kernel|cyc" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\cyc\sta_cyc.c" "User" "kernel|cyc" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\cyc\stp_cyc.c" "User" "kernel|cyc" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\dtq\acre_dtq.c" "User" "kernel|dtq" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\dtq\cre_dtq.c" "User" "kernel|dtq" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\dtq\del_dtq.c" "User" "kernel|dtq" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\dtq\fsnd_dtq.c" "User" "kernel|dtq" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\dtq\kcre_dtq.c" "User" "kernel|dtq" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\dtq\prcv_dtq.c" "User" "kernel|dtq" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\dtq\psnd_dtq.c" "User" "kernel|dtq" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\dtq\rcv_dtq.c" "User" "kernel|dtq" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\dtq\ref_dtq.c" "User" "kernel|dtq" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\dtq\snd_dtq.c" "User" "kernel|dtq" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\dtq\trcv_dtq.c" "User" "kernel|dtq" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\dtq\tsnd_dtq.c" "User" "kernel|dtq" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\exc\exe_exc.c" "User" "kernel|exc" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\flg\acre_flg.c" "User" "kernel|flg" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\flg\chk_flg.c" "User" "kernel|flg" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\flg\clr_flg.c" "User" "kernel|flg" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\flg\cre_flg.c" "User" "kernel|flg" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\flg\del_flg.c" "User" "kernel|flg" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\flg\ini_flg.c" "User" "kernel|flg" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\flg\kcre_flg.c" "User" "kernel|flg" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\flg\pol_flg.c" "User" "kernel|flg" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\flg\ref_flg.c" "User" "kernel|flg" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\flg\set_flg.c" "User" "kernel|flg" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\flg\twai_flg.c" "User" "kernel|flg" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\flg\wai_flg.c" "User" "kernel|flg" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\hep\alc_hep.c" "User" "kernel|hep" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\hep\cre_hep.c" "User" "kernel|hep" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\hep\fre_hep.c" "User" "kernel|hep" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\hos\sta_hos.c" "User" "kernel|hos" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\int\exe_int.c" "User" "kernel|int" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\int\ram_int.c" "User" "kernel|int" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\mbf\acre_mbf.c" "User" "kernel|mbf" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\mbf\cre_mbf.c" "User" "kernel|mbf" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\mbf\del_mbf.c" "User" "kernel|mbf" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\mbf\ini_mbf.c" "User" "kernel|mbf" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\mbf\kcre_mbf.c" "User" "kernel|mbf" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\mbf\krcv_mbf.c" "User" "kernel|mbf" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\mbf\ksnd_mbf.c" "User" "kernel|mbf" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\mbf\prcv_mbf.c" "User" "kernel|mbf" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\mbf\psnd_mbf.c" "User" "kernel|mbf" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\mbf\rcv_mbf.c" "User" "kernel|mbf" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\mbf\ref_mbf.c" "User" "kernel|mbf" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\mbf\snd_mbf.c" "User" "kernel|mbf" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\mbf\trcv_mbf.c" "User" "kernel|mbf" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\mbf\tsnd_mbf.c" "User" "kernel|mbf" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\mbx\acre_mbx.c" "User" "kernel|mbx" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\mbx\cre_mbx.c" "User" "kernel|mbx" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\mbx\del_mbx.c" "User" "kernel|mbx" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\mbx\kcre_mbx.c" "User" "kernel|mbx" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\mbx\prcv_mbx.c" "User" "kernel|mbx" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\mbx\rcv_mbx.c" "User" "kernel|mbx" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\mbx\ref_mbx.c" "User" "kernel|mbx" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\mbx\snd_mbx.c" "User" "kernel|mbx" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\mbx\trcv_mbx.c" "User" "kernel|mbx" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\mem\alc_mem.c" "User" "kernel|mem" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\mem\fre_mem.c" "User" "kernel|mem" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\mem\ini_mem.c" "User" "kernel|mem" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\mpf\acre_mpf.c" "User" "kernel|mpf" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\mpf\cre_mpf.c" "User" "kernel|mpf" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\mpf\del_mpf.c" "User" "kernel|mpf" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\mpf\get_mpf.c" "User" "kernel|mpf" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\mpf\ini_mpf.c" "User" "kernel|mpf" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\mpf\kcre_mpf.c" "User" "kernel|mpf" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\mpf\pget_mpf.c" "User" "kernel|mpf" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\mpf\ref_mpf.c" "User" "kernel|mpf" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\mpf\rel_mpf.c" "User" "kernel|mpf" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\mpf\tget_mpf.c" "User" "kernel|mpf" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\mpl\acre_mpl.c" "User" "kernel|mpl" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\mpl\cre_mpl.c" "User" "kernel|mpl" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\mpl\del_mpl.c" "User" "kernel|mpl" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\mpl\get_mpl.c" "User" "kernel|mpl" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\mpl\ini_mpl.c" "User" "kernel|mpl" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\mpl\kcre_mpl.c" "User" "kernel|mpl" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\mpl\pget_mpl.c" "User" "kernel|mpl" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\mpl\ref_mpl.c" "User" "kernel|mpl" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\mpl\rel_mpl.c" "User" "kernel|mpl" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\mpl\tget_mpl.c" "User" "kernel|mpl" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\sem\acre_sem.c" "User" "kernel|sem" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\sem\cre_sem.c" "User" "kernel|sem" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\sem\del_sem.c" "User" "kernel|sem" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\sem\ini_sem.c" "User" "kernel|sem" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\sem\kcre_sem.c" "User" "kernel|sem" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\sem\pol_sem.c" "User" "kernel|sem" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\sem\ref_sem.c" "User" "kernel|sem" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\sem\sig_sem.c" "User" "kernel|sem" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\sem\twai_sem.c" "User" "kernel|sem" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\sem\wai_sem.c" "User" "kernel|sem" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\sys\dis_dsp.c" "User" "kernel|sys" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\sys\ena_dsp.c" "User" "kernel|sys" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\sys\get_tid.c" "User" "kernel|sys" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\sys\kget_tid.c" "User" "kernel|sys" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\sys\loc_cpu.c" "User" "kernel|sys" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\sys\ref_ver.c" "User" "kernel|sys" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\sys\rot_rdq.c" "User" "kernel|sys" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\sys\sns_ctx.c" "User" "kernel|sys" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\sys\sns_dpn.c" "User" "kernel|sys" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\sys\sns_dsp.c" "User" "kernel|sys" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\sys\sns_loc.c" "User" "kernel|sys" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\sys\unl_cpu.c" "User" "kernel|sys" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\tim\add_tml.c" "User" "kernel|tim" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\tim\get_tim.c" "User" "kernel|tim" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\tim\ini_tim.c" "User" "kernel|tim" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\tim\isig_tim.c" "User" "kernel|tim" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\tim\rmv_tml.c" "User" "kernel|tim" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\tim\set_tim.c" "User" "kernel|tim" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\tsk\acre_tsk.c" "User" "kernel|tsk" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\tsk\act_tsk.c" "User" "kernel|tsk" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\tsk\can_act.c" "User" "kernel|tsk" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\tsk\can_wup.c" "User" "kernel|tsk" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\tsk\chg_pri.c" "User" "kernel|tsk" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\tsk\cre_tsk.c" "User" "kernel|tsk" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\tsk\del_tsk.c" "User" "kernel|tsk" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\tsk\dis_tex.c" "User" "kernel|tsk" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\tsk\dly_tsk.c" "User" "kernel|tsk" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\tsk\ena_tex.c" "User" "kernel|tsk" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\tsk\exd_tsk.c" "User" "kernel|tsk" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\tsk\ext_tsk.c" "User" "kernel|tsk" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\tsk\frsm_tsk.c" "User" "kernel|tsk" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\tsk\get_pri.c" "User" "kernel|tsk" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\tsk\ini_tsk.c" "User" "kernel|tsk" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\tsk\kcre_tsk.c" "User" "kernel|tsk" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\tsk\ktex_ent.c" "User" "kernel|tsk" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\tsk\ras_tex.c" "User" "kernel|tsk" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\tsk\ref_tst.c" "User" "kernel|tsk" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\tsk\rel_wai.c" "User" "kernel|tsk" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\tsk\rsm_tsk.c" "User" "kernel|tsk" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\tsk\slp_tsk.c" "User" "kernel|tsk" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\tsk\sns_tex.c" "User" "kernel|tsk" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\tsk\sta_tsk.c" "User" "kernel|tsk" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\tsk\sus_tsk.c" "User" "kernel|tsk" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\tsk\ter_tsk.c" "User" "kernel|tsk" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\tsk\tslp_tsk.c" "User" "kernel|tsk" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\tsk\wup_tsk.c" "User" "kernel|tsk" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\mknl\que\madd_que.c" "User" "mknl|que" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\mknl\que\madf_que.c" "User" "mknl|que" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\mknl\que\madp_que.c" "User" "mknl|que" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\mknl\que\mclr_que.c" "User" "mknl|que" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\mknl\que\mrmv_que.c" "User" "mknl|que" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\mknl\que\mrot_que.c" "User" "mknl|que" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\mknl\sys\mexe_sys.c" "User" "mknl|sys" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\mknl\sys\mext_stu.c" "User" "mknl|sys" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\mknl\sys\midl_lop.c" "User" "mknl|sys" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\mknl\sys\mini_sys.c" "User" "mknl|sys" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\mknl\sys\msta_stu.c" "User" "mknl|sys" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\mknl\tmout\madd_tmo.c" "User" "mknl|tmout" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\mknl\tmout\mrmv_tmo.c" "User" "mknl|tmout" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\mknl\tmout\mtic_tmo.c" "User" "mknl|tmout" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\mknl\tsk\mchg_pri.c" "User" "mknl|tsk" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\mknl\tsk\mdly_dsp.c" "User" "mknl|tsk" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\mknl\tsk\mexe_dsp.c" "User" "mknl|tsk" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\mknl\tsk\mexe_tex.c" "User" "mknl|tsk" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\mknl\tsk\mras_tex.c" "User" "mknl|tsk" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\mknl\tsk\mrot_rdq.c" "User" "mknl|tsk" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\mknl\tsk\mrsm_tsk.c" "User" "mknl|tsk" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\mknl\tsk\msrh_top.c" "User" "mknl|tsk" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\mknl\tsk\msta_tsk.c" "User" "mknl|tsk" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\mknl\tsk\msus_tsk.c" "User" "mknl|tsk" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\mknl\tsk\mter_tsk.c" "User" "mknl|tsk" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\mknl\tsk\mwai_tsk.c" "User" "mknl|tsk" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\mknl\tsk\mwup_tsk.c" "User" "mknl|tsk" 2 
+[FOLDER]
+"h83" "h83" 
+"h83|htc" "" 
+"kernel" "kernel" 
+"kernel|alm" "" 
+"kernel|cyc" "" 
+"kernel|dtq" "" 
+"kernel|exc" "" 
+"kernel|flg" "" 
+"kernel|hep" "" 
+"kernel|hos" "" 
+"kernel|int" "" 
+"kernel|mbf" "" 
+"kernel|mbx" "" 
+"kernel|mem" "" 
+"kernel|mpf" "" 
+"kernel|mpl" "" 
+"kernel|sem" "" 
+"kernel|sys" "" 
+"kernel|tim" "" 
+"kernel|tsk" "" 
+"mknl" "mknl" 
+"mknl|que" "" 
+"mknl|sys" "" 
+"mknl|tmout" "" 
+"mknl|tsk" "" 
+[GENERAL_DATA_PROJECT]
+"USE_CUSTOM_LINKAGE_ORDER" "0" 
+[ON_DEMAND_COMPONENTS_LOADED]
+[SYNC_SESSION_NAMES]
+[SESSIONS]
+"DefaultSession" "C:\WorkSpace\hosv4-practice\hosv4\DefaultSession.hsf" 0 
+[GENERAL_DATA_SESSION_DefaultSession]
+[OPTIONS_Debug_Renesas H8S,H8/300 Assembler]
+"Assembly source file" "06b9f7b674866d10" 4 
+"C:\WorkSpace\hosv4-practice\hosv4\src\h83\htc\pacctxn.src" "06b9f7b674866d10" 4 
+"C:\WorkSpace\hosv4-practice\hosv4\src\h83\htc\pacintn.src" "06b9f7b674866d10" 4 
+"Linkage symbol file" "06b9f7b674866d10" 4 
+[OPTIONS_Debug_Renesas H8S,H8/300 C/C++ Compiler]
+"C source file" "0e33f44c74866d10" 2 
+"C++ source file" "0e33f44c74866d10" 3 
+"C:\WorkSpace\hosv4-practice\hosv4\src\h83\chg_imsk.c" "0e33f44c74866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\h83\fchg_imk.c" "0e33f44c74866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\h83\fget_imk.c" "0e33f44c74866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\h83\get_imsk.c" "0e33f44c74866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\h83\pacini.c" "0e33f44c74866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\alm\alm_hdr.c" "0e33f44c74866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\alm\ini_alm.c" "0e33f44c74866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\alm\sta_alm.c" "0e33f44c74866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\alm\stp_alm.c" "0e33f44c74866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\cyc\acre_cyc.c" "0e33f44c74866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\cyc\cre_cyc.c" "0e33f44c74866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\cyc\cyc_hdr.c" "0e33f44c74866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\cyc\del_cyc.c" "0e33f44c74866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\cyc\ini_cyc.c" "0e33f44c74866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\cyc\kcre_cyc.c" "0e33f44c74866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\cyc\sta_cyc.c" "0e33f44c74866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\cyc\stp_cyc.c" "0e33f44c74866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\dtq\acre_dtq.c" "0e33f44c74866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\dtq\cre_dtq.c" "0e33f44c74866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\dtq\del_dtq.c" "0e33f44c74866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\dtq\fsnd_dtq.c" "0e33f44c74866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\dtq\kcre_dtq.c" "0e33f44c74866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\dtq\prcv_dtq.c" "0e33f44c74866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\dtq\psnd_dtq.c" "0e33f44c74866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\dtq\rcv_dtq.c" "0e33f44c74866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\dtq\ref_dtq.c" "0e33f44c74866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\dtq\snd_dtq.c" "0e33f44c74866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\dtq\trcv_dtq.c" "0e33f44c74866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\dtq\tsnd_dtq.c" "0e33f44c74866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\exc\exe_exc.c" "0e33f44c74866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\flg\acre_flg.c" "0e33f44c74866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\flg\chk_flg.c" "0e33f44c74866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\flg\clr_flg.c" "0e33f44c74866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\flg\cre_flg.c" "0e33f44c74866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\flg\del_flg.c" "0e33f44c74866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\flg\ini_flg.c" "0e33f44c74866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\flg\kcre_flg.c" "0e33f44c74866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\flg\pol_flg.c" "0e33f44c74866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\flg\ref_flg.c" "0e33f44c74866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\flg\set_flg.c" "0e33f44c74866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\flg\twai_flg.c" "0e33f44c74866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\flg\wai_flg.c" "0e33f44c74866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\hep\alc_hep.c" "0e33f44c74866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\hep\cre_hep.c" "0e33f44c74866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\hep\fre_hep.c" "0e33f44c74866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\hos\sta_hos.c" "0e33f44c74866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\int\exe_int.c" "0e33f44c74866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\int\ram_int.c" "0e33f44c74866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\mbf\acre_mbf.c" "0e33f44c74866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\mbf\cre_mbf.c" "0e33f44c74866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\mbf\del_mbf.c" "0e33f44c74866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\mbf\ini_mbf.c" "0e33f44c74866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\mbf\kcre_mbf.c" "0e33f44c74866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\mbf\krcv_mbf.c" "0e33f44c74866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\mbf\ksnd_mbf.c" "0e33f44c74866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\mbf\prcv_mbf.c" "0e33f44c74866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\mbf\psnd_mbf.c" "0e33f44c74866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\mbf\rcv_mbf.c" "0e33f44c74866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\mbf\ref_mbf.c" "0e33f44c74866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\mbf\snd_mbf.c" "0e33f44c74866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\mbf\trcv_mbf.c" "0e33f44c74866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\mbf\tsnd_mbf.c" "0e33f44c74866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\mbx\acre_mbx.c" "0e33f44c74866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\mbx\cre_mbx.c" "0e33f44c74866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\mbx\del_mbx.c" "0e33f44c74866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\mbx\kcre_mbx.c" "0e33f44c74866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\mbx\prcv_mbx.c" "0e33f44c74866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\mbx\rcv_mbx.c" "0e33f44c74866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\mbx\ref_mbx.c" "0e33f44c74866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\mbx\snd_mbx.c" "0e33f44c74866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\mbx\trcv_mbx.c" "0e33f44c74866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\mem\alc_mem.c" "0e33f44c74866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\mem\fre_mem.c" "0e33f44c74866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\mem\ini_mem.c" "0e33f44c74866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\mpf\acre_mpf.c" "0e33f44c74866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\mpf\cre_mpf.c" "0e33f44c74866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\mpf\del_mpf.c" "0e33f44c74866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\mpf\get_mpf.c" "0e33f44c74866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\mpf\ini_mpf.c" "0e33f44c74866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\mpf\kcre_mpf.c" "0e33f44c74866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\mpf\pget_mpf.c" "0e33f44c74866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\mpf\ref_mpf.c" "0e33f44c74866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\mpf\rel_mpf.c" "0e33f44c74866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\mpf\tget_mpf.c" "0e33f44c74866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\mpl\acre_mpl.c" "0e33f44c74866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\mpl\cre_mpl.c" "0e33f44c74866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\mpl\del_mpl.c" "0e33f44c74866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\mpl\get_mpl.c" "0e33f44c74866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\mpl\ini_mpl.c" "0e33f44c74866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\mpl\kcre_mpl.c" "0e33f44c74866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\mpl\pget_mpl.c" "0e33f44c74866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\mpl\ref_mpl.c" "0e33f44c74866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\mpl\rel_mpl.c" "0e33f44c74866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\mpl\tget_mpl.c" "0e33f44c74866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\sem\acre_sem.c" "0e33f44c74866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\sem\cre_sem.c" "0e33f44c74866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\sem\del_sem.c" "0e33f44c74866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\sem\ini_sem.c" "0e33f44c74866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\sem\kcre_sem.c" "0e33f44c74866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\sem\pol_sem.c" "0e33f44c74866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\sem\ref_sem.c" "0e33f44c74866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\sem\sig_sem.c" "0e33f44c74866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\sem\twai_sem.c" "0e33f44c74866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\sem\wai_sem.c" "0e33f44c74866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\sys\dis_dsp.c" "0e33f44c74866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\sys\ena_dsp.c" "0e33f44c74866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\sys\get_tid.c" "0e33f44c74866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\sys\kget_tid.c" "0e33f44c74866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\sys\loc_cpu.c" "0e33f44c74866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\sys\ref_ver.c" "0e33f44c74866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\sys\rot_rdq.c" "0e33f44c74866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\sys\sns_ctx.c" "0e33f44c74866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\sys\sns_dpn.c" "0e33f44c74866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\sys\sns_dsp.c" "0e33f44c74866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\sys\sns_loc.c" "0e33f44c74866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\sys\unl_cpu.c" "0e33f44c74866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\tim\add_tml.c" "0e33f44c74866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\tim\get_tim.c" "0e33f44c74866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\tim\ini_tim.c" "0e33f44c74866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\tim\isig_tim.c" "0e33f44c74866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\tim\rmv_tml.c" "0e33f44c74866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\tim\set_tim.c" "0e33f44c74866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\tsk\acre_tsk.c" "0e33f44c74866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\tsk\act_tsk.c" "0e33f44c74866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\tsk\can_act.c" "0e33f44c74866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\tsk\can_wup.c" "0e33f44c74866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\tsk\chg_pri.c" "0e33f44c74866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\tsk\cre_tsk.c" "0e33f44c74866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\tsk\del_tsk.c" "0e33f44c74866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\tsk\dis_tex.c" "0e33f44c74866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\tsk\dly_tsk.c" "0e33f44c74866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\tsk\ena_tex.c" "0e33f44c74866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\tsk\exd_tsk.c" "0e33f44c74866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\tsk\ext_tsk.c" "0e33f44c74866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\tsk\frsm_tsk.c" "0e33f44c74866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\tsk\get_pri.c" "0e33f44c74866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\tsk\ini_tsk.c" "0e33f44c74866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\tsk\kcre_tsk.c" "0e33f44c74866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\tsk\ktex_ent.c" "0e33f44c74866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\tsk\ras_tex.c" "0e33f44c74866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\tsk\ref_tst.c" "0e33f44c74866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\tsk\rel_wai.c" "0e33f44c74866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\tsk\rsm_tsk.c" "0e33f44c74866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\tsk\slp_tsk.c" "0e33f44c74866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\tsk\sns_tex.c" "0e33f44c74866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\tsk\sta_tsk.c" "0e33f44c74866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\tsk\sus_tsk.c" "0e33f44c74866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\tsk\ter_tsk.c" "0e33f44c74866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\tsk\tslp_tsk.c" "0e33f44c74866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\tsk\wup_tsk.c" "0e33f44c74866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\mknl\que\madd_que.c" "0e33f44c74866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\mknl\que\madf_que.c" "0e33f44c74866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\mknl\que\madp_que.c" "0e33f44c74866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\mknl\que\mclr_que.c" "0e33f44c74866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\mknl\que\mrmv_que.c" "0e33f44c74866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\mknl\que\mrot_que.c" "0e33f44c74866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\mknl\sys\mexe_sys.c" "0e33f44c74866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\mknl\sys\mext_stu.c" "0e33f44c74866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\mknl\sys\midl_lop.c" "0e33f44c74866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\mknl\sys\mini_sys.c" "0e33f44c74866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\mknl\sys\msta_stu.c" "0e33f44c74866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\mknl\tmout\madd_tmo.c" "0e33f44c74866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\mknl\tmout\mrmv_tmo.c" "0e33f44c74866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\mknl\tmout\mtic_tmo.c" "0e33f44c74866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\mknl\tsk\mchg_pri.c" "0e33f44c74866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\mknl\tsk\mdly_dsp.c" "0e33f44c74866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\mknl\tsk\mexe_dsp.c" "0e33f44c74866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\mknl\tsk\mexe_tex.c" "0e33f44c74866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\mknl\tsk\mras_tex.c" "0e33f44c74866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\mknl\tsk\mrot_rdq.c" "0e33f44c74866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\mknl\tsk\mrsm_tsk.c" "0e33f44c74866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\mknl\tsk\msrh_top.c" "0e33f44c74866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\mknl\tsk\msta_tsk.c" "0e33f44c74866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\mknl\tsk\msus_tsk.c" "0e33f44c74866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\mknl\tsk\mter_tsk.c" "0e33f44c74866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\mknl\tsk\mwai_tsk.c" "0e33f44c74866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\mknl\tsk\mwup_tsk.c" "0e33f44c74866d10" 2 
+[OPTIONS_Debug_Renesas H8S,H8/300 C/C++ Library Generator]
+"Single Shot" "06b9f7b674866d10" 1 
+[OPTIONS_Debug_Renesas OptLinker]
+"Single Shot" "06b9f7b674866d10" 5 
+[OPTIONS_Debug]
+"" 0 
+"[V|VERSION|1] [B|DEBUG|1] [S|OUTPUTPATH|^"$(CONFIGDIR)\$(FILELEAF).obj^"] [B|ERRORPATH|1] [B|CHGINCPATH|1] [S|CPU|300HN] [I|SBR|0] [B|SKIPDEPENDENCY|1]
+" 4 
+"[V|VERSION|6] [I|SBR|0] [S|FORM|LIBRARY=U] [S|BYTE_COUNT_VALUE|FF] [B|DEBUG|1] [S|ROM|(D,R)] [S|CRC|NONE|00000000] [B|LIST|1] [S|LIST|^"$(CONFIGDIR)\$(PROJECTNAME).lbp^"] [S|SHOW|METHODCUSTOM] [S|OUTPUT|^"$(CONFIGDIR)\$(PROJECTNAME).lib^"] [I|SPACE|^"FF^"] [B|OPTIMIZE|0] [I|CACHESIZE|000000008] [I|CACHELINE|000000020] [B|SKIPDEPENDENCY|1]
+" 5 
+"[V|VERSION|6] [S|CPU|300HN] [I|SBR|0] [S|BIT_ORDER|LEFT] [S|INCLUDE|^"$(WORKSPDIR)\hosv4\include\^"|^"$(WORKSPDIR)\hosv4\include\h83^"] [S|LANG|CPP] [S|OUTPUTPATH|^"$(CONFIGDIR)\$(FILELEAF).obj^"] [B|DEBUG|1] [B|NOCPUEXPAND|1] [I|ALIGN|] [B|LIST|0] [S|SPEED|REGISTER|SWITCH|SHIFT|STRUCT|EXPRESSION|LOOP|INLINE=110] [S|INLINE|DEFAULT] [S|OPT_RANGE|ALL] [I|MAX_UNROLL|1] [S|LIBRARY|FUNCTION] [S|MISRA2004_CHECK_RULE|ALL] [S|MISRA2004_RULE|1.1|3.4|4.1|5.2|5.3|5.4|5.5|5.6|5.7|6.1|6.2|6.3|6.4|6.5|7.1|8.1|8.2|8.3|8.5|8.6|8.7|8.8|8.11|8.12|9.2|9.3|10.1|10.2|10.3|10.4|10.5|10.6|11.1|11.2|11.3|11.4|11.5|12.1|12.2|12.3|12.4|12.5|12.6|12.7|12.8|12.9|12.10|12.11|12.12|12.13|13.1|13.2|13.3|13.4|13.7|14.1|14.2|14.3|14.4|14.5|14.6|14.7|14.8|14.9|14.10|15.1|15.2|15.3|15.4|15.5|16.1|16.2|16.3|16.4|16.5|16.6|16.8|16.9|17.3|17.4|17.5|17.6|18.1|18.2|18.4|19.1|20.2|20.4|20.5|20.7|20.8|20.9|20.10|20.11|20.12] [S|MISRA1998_CHECK_RULE|ALL] [S|MISRA1998_RULE|1|5|8|12|13|14|17|18|19|20|21|22|24|28|29|31|32|33|34|35|36|37|38|39|40|42|43|44|45|46|48|49|50|51|53|54|55|56|57|58|59|60|61|62|63|64|65|68|69|70|71|72|73|74|75|76|77|78|79|80|82|83|84|85|99|101|102|103|104|105|106|108|110|111|112|113|115|118|119|121|122|123|124|125|126|127] [S|MISRA_GROUP_FILE_PATH|^"$(PROJDIR)\$(PROJECTNAME).rde^"] [B|CHGINCPATH|1] [B|SKIPDEPENDENCY|1]
+" 3 
+"[V|VERSION|6] [S|CPU|300HN] [I|SBR|0] [S|BIT_ORDER|LEFT] [S|INCLUDE|^"$(WORKSPDIR)\hosv4\include\^"|^"$(WORKSPDIR)\hosv4\include\h83^"] [S|LANG|C] [S|OUTPUTPATH|^"$(CONFIGDIR)\$(FILELEAF).obj^"] [B|DEBUG|1] [B|NOCPUEXPAND|1] [I|ALIGN|] [B|LIST|0] [S|SPEED|REGISTER|SWITCH|SHIFT|STRUCT|EXPRESSION|LOOP|INLINE=110] [S|INLINE|DEFAULT] [S|OPT_RANGE|ALL] [I|MAX_UNROLL|1] [S|LIBRARY|FUNCTION] [S|MISRA2004_CHECK_RULE|ALL] [S|MISRA2004_RULE|1.1|3.4|4.1|5.2|5.3|5.4|5.5|5.6|5.7|6.1|6.2|6.3|6.4|6.5|7.1|8.1|8.2|8.3|8.5|8.6|8.7|8.8|8.11|8.12|9.2|9.3|10.1|10.2|10.3|10.4|10.5|10.6|11.1|11.2|11.3|11.4|11.5|12.1|12.2|12.3|12.4|12.5|12.6|12.7|12.8|12.9|12.10|12.11|12.12|12.13|13.1|13.2|13.3|13.4|13.7|14.1|14.2|14.3|14.4|14.5|14.6|14.7|14.8|14.9|14.10|15.1|15.2|15.3|15.4|15.5|16.1|16.2|16.3|16.4|16.5|16.6|16.8|16.9|17.3|17.4|17.5|17.6|18.1|18.2|18.4|19.1|20.2|20.4|20.5|20.7|20.8|20.9|20.10|20.11|20.12] [S|MISRA1998_CHECK_RULE|ALL] [S|MISRA1998_RULE|1|5|8|12|13|14|17|18|19|20|21|22|24|28|29|31|32|33|34|35|36|37|38|39|40|42|43|44|45|46|48|49|50|51|53|54|55|56|57|58|59|60|61|62|63|64|65|68|69|70|71|72|73|74|75|76|77|78|79|80|82|83|84|85|99|101|102|103|104|105|106|108|110|111|112|113|115|118|119|121|122|123|124|125|126|127] [S|MISRA_GROUP_FILE_PATH|^"$(PROJDIR)\$(PROJECTNAME).rde^"] [B|CHGINCPATH|1] [B|SKIPDEPENDENCY|1]
+" 2 
+"[V|VERSION|6] [S|MODE|NOTADD] [S|EXISTOUTPUTPATH|^"$(CONFIGDIR)\$(PROJECTNAME).lib^"] [B|RUNTIME|1] [B|NEW|1] [S|LANG|C] [S|OUTPUTPATH|^"$(CONFIGDIR)\$(PROJECTNAME).lib^"] [B|NOCPUEXPAND|1] [I|ALIGN|] [S|SPEED|REGISTER|SWITCH|SHIFT|STRUCT|EXPRESSION|LOOP|INLINE=110] [S|INLINE|DEFAULT] [S|OPT_RANGE|ALL] [I|MAX_UNROLL|1] [S|LIBRARY|FUNCTION] [S|CPU|300HN] [I|SBR|0] [S|BIT_ORDER|LEFT] [B|SKIPDEPENDENCY|1]
+" 1 
+[EXCLUDED_FILES_Debug]
+[LINKAGE_ORDER_Debug]
+[GENERAL_DATA_CONFIGURATION_Debug]
+[OPTIONS_Release_Renesas H8S,H8/300 Assembler]
+"Assembly source file" "02a765a664866d10" 4 
+"C:\WorkSpace\hosv4-practice\hosv4\src\h83\htc\pacctxn.src" "01fa421d64866d10" 4 
+"C:\WorkSpace\hosv4-practice\hosv4\src\h83\htc\pacintn.src" "01fa421d64866d10" 4 
+"Linkage symbol file" "02a765a664866d10" 4 
+[OPTIONS_Release_Renesas H8S,H8/300 C/C++ Compiler]
+"C source file" "02a765a664866d10" 2 
+"C++ source file" "0f0579e574866d10" 3 
+"C:\WorkSpace\hosv4-practice\hosv4\src\h83\chg_imsk.c" "0bc4731d64866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\h83\fchg_imk.c" "0bc4731d64866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\h83\fget_imk.c" "0bc4731d64866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\h83\get_imsk.c" "0bc4731d64866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\h83\pacini.c" "0bc4731d64866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\alm\alm_hdr.c" "019ccb0b64866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\alm\ini_alm.c" "019ccb0b64866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\alm\sta_alm.c" "019ccb0b64866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\alm\stp_alm.c" "019ccb0b64866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\cyc\acre_cyc.c" "03e35f0b64866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\cyc\cre_cyc.c" "03e35f0b64866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\cyc\cyc_hdr.c" "03e35f0b64866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\cyc\del_cyc.c" "03e35f0b64866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\cyc\ini_cyc.c" "03e35f0b64866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\cyc\kcre_cyc.c" "03e35f0b64866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\cyc\sta_cyc.c" "03e35f0b64866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\cyc\stp_cyc.c" "03e35f0b64866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\dtq\acre_dtq.c" "0bf6c01b64866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\dtq\cre_dtq.c" "0bf6c01b64866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\dtq\del_dtq.c" "0bf6c01b64866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\dtq\fsnd_dtq.c" "0bf6c01b64866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\dtq\kcre_dtq.c" "0bf6c01b64866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\dtq\prcv_dtq.c" "0bf6c01b64866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\dtq\psnd_dtq.c" "0bf6c01b64866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\dtq\rcv_dtq.c" "0bf6c01b64866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\dtq\ref_dtq.c" "0bf6c01b64866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\dtq\snd_dtq.c" "0bf6c01b64866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\dtq\trcv_dtq.c" "0bf6c01b64866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\dtq\tsnd_dtq.c" "0bf6c01b64866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\exc\exe_exc.c" "0608c31b64866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\flg\acre_flg.c" "0643f11b64866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\flg\chk_flg.c" "0643f11b64866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\flg\clr_flg.c" "0643f11b64866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\flg\cre_flg.c" "0643f11b64866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\flg\del_flg.c" "0643f11b64866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\flg\ini_flg.c" "0643f11b64866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\flg\kcre_flg.c" "0643f11b64866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\flg\pol_flg.c" "0643f11b64866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\flg\ref_flg.c" "0643f11b64866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\flg\set_flg.c" "0643f11b64866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\flg\twai_flg.c" "0643f11b64866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\flg\wai_flg.c" "0643f11b64866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\hep\alc_hep.c" "0909bb0b64866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\hep\cre_hep.c" "0909bb0b64866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\hep\fre_hep.c" "0909bb0b64866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\hos\sta_hos.c" "012c2d0b64866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\int\exe_int.c" "0761ce0b64866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\int\ram_int.c" "0761ce0b64866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\mbf\acre_mbf.c" "07e9ff0b64866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\mbf\cre_mbf.c" "07e9ff0b64866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\mbf\del_mbf.c" "07e9ff0b64866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\mbf\ini_mbf.c" "07e9ff0b64866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\mbf\kcre_mbf.c" "07e9ff0b64866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\mbf\krcv_mbf.c" "07e9ff0b64866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\mbf\ksnd_mbf.c" "07e9ff0b64866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\mbf\prcv_mbf.c" "07e9ff0b64866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\mbf\psnd_mbf.c" "07e9ff0b64866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\mbf\rcv_mbf.c" "07e9ff0b64866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\mbf\ref_mbf.c" "07e9ff0b64866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\mbf\snd_mbf.c" "07e9ff0b64866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\mbf\trcv_mbf.c" "07e9ff0b64866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\mbf\tsnd_mbf.c" "07e9ff0b64866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\mbx\acre_mbx.c" "048da41b64866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\mbx\cre_mbx.c" "048da41b64866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\mbx\del_mbx.c" "048da41b64866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\mbx\kcre_mbx.c" "048da41b64866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\mbx\prcv_mbx.c" "048da41b64866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\mbx\rcv_mbx.c" "048da41b64866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\mbx\ref_mbx.c" "048da41b64866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\mbx\snd_mbx.c" "048da41b64866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\mbx\trcv_mbx.c" "048da41b64866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\mem\alc_mem.c" "05742c0b64866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\mem\fre_mem.c" "05742c0b64866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\mem\ini_mem.c" "05742c0b64866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\mpf\acre_mpf.c" "0dd9eb0b64866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\mpf\cre_mpf.c" "0dd9eb0b64866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\mpf\del_mpf.c" "0dd9eb0b64866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\mpf\get_mpf.c" "0dd9eb0b64866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\mpf\ini_mpf.c" "0dd9eb0b64866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\mpf\kcre_mpf.c" "0dd9eb0b64866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\mpf\pget_mpf.c" "0dd9eb0b64866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\mpf\ref_mpf.c" "0dd9eb0b64866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\mpf\rel_mpf.c" "0dd9eb0b64866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\mpf\tget_mpf.c" "0dd9eb0b64866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\mpl\acre_mpl.c" "0d168c0b64866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\mpl\cre_mpl.c" "0d168c0b64866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\mpl\del_mpl.c" "0d168c0b64866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\mpl\get_mpl.c" "0d168c0b64866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\mpl\ini_mpl.c" "0d168c0b64866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\mpl\kcre_mpl.c" "0d168c0b64866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\mpl\pget_mpl.c" "0d168c0b64866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\mpl\ref_mpl.c" "0d168c0b64866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\mpl\rel_mpl.c" "0d168c0b64866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\mpl\tget_mpl.c" "0d168c0b64866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\sem\acre_sem.c" "0cc1dc0b64866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\sem\cre_sem.c" "0cc1dc0b64866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\sem\del_sem.c" "0cc1dc0b64866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\sem\ini_sem.c" "0cc1dc0b64866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\sem\kcre_sem.c" "0cc1dc0b64866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\sem\pol_sem.c" "0cc1dc0b64866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\sem\ref_sem.c" "0cc1dc0b64866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\sem\sig_sem.c" "0cc1dc0b64866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\sem\twai_sem.c" "0cc1dc0b64866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\sem\wai_sem.c" "0cc1dc0b64866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\sys\dis_dsp.c" "05402e0b64866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\sys\ena_dsp.c" "05402e0b64866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\sys\get_tid.c" "05402e0b64866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\sys\kget_tid.c" "05402e0b64866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\sys\loc_cpu.c" "05402e0b64866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\sys\ref_ver.c" "05402e0b64866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\sys\rot_rdq.c" "05402e0b64866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\sys\sns_ctx.c" "05402e0b64866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\sys\sns_dpn.c" "05402e0b64866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\sys\sns_dsp.c" "05402e0b64866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\sys\sns_loc.c" "05402e0b64866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\sys\unl_cpu.c" "05402e0b64866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\tim\add_tml.c" "07605c0b64866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\tim\get_tim.c" "07605c0b64866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\tim\ini_tim.c" "07605c0b64866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\tim\isig_tim.c" "07605c0b64866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\tim\rmv_tml.c" "07605c0b64866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\tim\set_tim.c" "07605c0b64866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\tsk\acre_tsk.c" "00d77d0b64866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\tsk\act_tsk.c" "00d77d0b64866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\tsk\can_act.c" "00d77d0b64866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\tsk\can_wup.c" "00d77d0b64866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\tsk\chg_pri.c" "00d77d0b64866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\tsk\cre_tsk.c" "00d77d0b64866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\tsk\del_tsk.c" "00d77d0b64866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\tsk\dis_tex.c" "00d77d0b64866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\tsk\dly_tsk.c" "00d77d0b64866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\tsk\ena_tex.c" "00d77d0b64866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\tsk\exd_tsk.c" "00d77d0b64866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\tsk\ext_tsk.c" "00d77d0b64866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\tsk\frsm_tsk.c" "00d77d0b64866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\tsk\get_pri.c" "00d77d0b64866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\tsk\ini_tsk.c" "00d77d0b64866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\tsk\kcre_tsk.c" "00d77d0b64866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\tsk\ktex_ent.c" "00d77d0b64866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\tsk\ras_tex.c" "00d77d0b64866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\tsk\ref_tst.c" "00d77d0b64866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\tsk\rel_wai.c" "00d77d0b64866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\tsk\rsm_tsk.c" "00d77d0b64866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\tsk\slp_tsk.c" "00d77d0b64866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\tsk\sns_tex.c" "00d77d0b64866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\tsk\sta_tsk.c" "00d77d0b64866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\tsk\sus_tsk.c" "00d77d0b64866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\tsk\ter_tsk.c" "00d77d0b64866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\tsk\tslp_tsk.c" "00d77d0b64866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\kernel\tsk\wup_tsk.c" "00d77d0b64866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\mknl\que\madd_que.c" "0eb97f9b64866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\mknl\que\madf_que.c" "0eb97f9b64866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\mknl\que\madp_que.c" "0eb97f9b64866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\mknl\que\mclr_que.c" "0eb97f9b64866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\mknl\que\mrmv_que.c" "0eb97f9b64866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\mknl\que\mrot_que.c" "0eb97f9b64866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\mknl\sys\mexe_sys.c" "05e04d9b64866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\mknl\sys\mext_stu.c" "05e04d9b64866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\mknl\sys\midl_lop.c" "05e04d9b64866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\mknl\sys\mini_sys.c" "05e04d9b64866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\mknl\sys\msta_stu.c" "05e04d9b64866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\mknl\tmout\madd_tmo.c" "06c45e9b64866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\mknl\tmout\mrmv_tmo.c" "06c45e9b64866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\mknl\tmout\mtic_tmo.c" "06c45e9b64866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\mknl\tsk\mchg_pri.c" "074d0c9b64866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\mknl\tsk\mdly_dsp.c" "074d0c9b64866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\mknl\tsk\mexe_dsp.c" "074d0c9b64866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\mknl\tsk\mexe_tex.c" "074d0c9b64866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\mknl\tsk\mras_tex.c" "074d0c9b64866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\mknl\tsk\mrot_rdq.c" "074d0c9b64866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\mknl\tsk\mrsm_tsk.c" "074d0c9b64866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\mknl\tsk\msrh_top.c" "074d0c9b64866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\mknl\tsk\msta_tsk.c" "074d0c9b64866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\mknl\tsk\msus_tsk.c" "074d0c9b64866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\mknl\tsk\mter_tsk.c" "074d0c9b64866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\mknl\tsk\mwai_tsk.c" "074d0c9b64866d10" 2 
+"C:\WorkSpace\hosv4-practice\hosv4\src\mknl\tsk\mwup_tsk.c" "074d0c9b64866d10" 2 
+[OPTIONS_Release_Renesas H8S,H8/300 C/C++ Library Generator]
+"Single Shot" "02a765a664866d10" 1 
+[OPTIONS_Release_Renesas OptLinker]
+"Single Shot" "0bc4731d64866d10" 5 
+[OPTIONS_Release]
+"" 0 
+"[S|OUTPUTPATH|^"$(CONFIGDIR)\$(PROJECTNAME).lib^"] [V|VERSION|1] [B|RUNTIME|1] [B|NEW|1] [B|CTYPE|0] [B|MATH|0] [B|MATHF|0] [B|STDARG|0] [B|STDIO|0] [B|STDLIB|0] [B|STRING|0] [B|IOS|0] [B|COMPLEX|0] [B|CPPSTRING|0] [B|C99_COMPLEX|0] [B|INTTYPES|0] [B|WCHAR|0] [B|WCTYPE|0] [S|LANG|C] [S|MODE|NOTADD] [B|SPEED|0] [S|CPU|300HN] [S|STACK|MEDIUM] [I|REGPARAM|2] [B|LONGREG|0] [B|STRUCTREG|0] [B|RTTI|0] [S|BIT_ORDER|LEFT] [B|PACK|0] [B|C89STDIO|0] [B|EXCEPTION|0]" 1 
+"[V|VERSION|1] [B|DEBUG|0] [S|OUTPUTPATH|^"$(CONFIGDIR)\$(FILELEAF).obj^"] [B|LIST|0] [B|CHGINCPATH|1] [B|ERRORPATH|1] [S|CPU|300HN]" 4 
+"[V|VERSION|1] [B|OPTIMIZE|0] [S|OUTPUT|^"$(CONFIGDIR)\$(PROJECTNAME).abs^"] [B|LIST|1] [S|LIST|^"$(CONFIGDIR)\$(PROJECTNAME).map^"] [S|ROM|(D,R)] [S|FORM|LIBRARY|U] [S|OUTPUT|^"$(CONFIGDIR)\$(PROJECTNAME).lib^"]" 5 
+"[V|VERSION|1] [S|OUTPUTPATH|^"$(CONFIGDIR)\$(FILELEAF).obj^"] [B|LIST|0] [B|CHGINCPATH|1] [S|CPU|300HN] [S|STACK|MEDIUM] [I|REGPARAM|2] [B|LONGREG|0] [B|STRUCTREG|0] [B|RTTI|0] [S|BIT_ORDER|LEFT] [B|PACK|0] [B|C89STDIO|0] [B|EXCEPTION|0]" 2 
+"[V|VERSION|6] [S|CPU|300HN] [I|SBR|0] [S|BIT_ORDER|LEFT] [S|LANG|CPP] [S|OUTPUTPATH|^"$(CONFIGDIR)\$(FILELEAF).obj^"] [B|NOCPUEXPAND|1] [I|ALIGN|] [B|LIST|0] [S|SPEED|REGISTER|SWITCH|SHIFT|STRUCT|EXPRESSION|LOOP|INLINE=110] [S|INLINE|DEFAULT] [S|OPT_RANGE|ALL] [I|MAX_UNROLL|1] [S|LIBRARY|FUNCTION] [S|MISRA2004_CHECK_RULE|ALL] [S|MISRA2004_RULE|1.1|3.4|4.1|5.2|5.3|5.4|5.5|5.6|5.7|6.1|6.2|6.3|6.4|6.5|7.1|8.1|8.2|8.3|8.5|8.6|8.7|8.8|8.11|8.12|9.2|9.3|10.1|10.2|10.3|10.4|10.5|10.6|11.1|11.2|11.3|11.4|11.5|12.1|12.2|12.3|12.4|12.5|12.6|12.7|12.8|12.9|12.10|12.11|12.12|12.13|13.1|13.2|13.3|13.4|13.7|14.1|14.2|14.3|14.4|14.5|14.6|14.7|14.8|14.9|14.10|15.1|15.2|15.3|15.4|15.5|16.1|16.2|16.3|16.4|16.5|16.6|16.8|16.9|17.3|17.4|17.5|17.6|18.1|18.2|18.4|19.1|20.2|20.4|20.5|20.7|20.8|20.9|20.10|20.11|20.12] [S|MISRA1998_CHECK_RULE|ALL] [S|MISRA1998_RULE|1|5|8|12|13|14|17|18|19|20|21|22|24|28|29|31|32|33|34|35|36|37|38|39|40|42|43|44|45|46|48|49|50|51|53|54|55|56|57|58|59|60|61|62|63|64|65|68|69|70|71|72|73|74|75|76|77|78|79|80|82|83|84|85|99|101|102|103|104|105|106|108|110|111|112|113|115|118|119|121|122|123|124|125|126|127] [S|MISRA_GROUP_FILE_PATH|^"$(PROJDIR)\$(PROJECTNAME).rde^"] [B|CHGINCPATH|1]
+" 3 
+[EXCLUDED_FILES_Release]
+[LINKAGE_ORDER_Release]
+[GENERAL_DATA_CONFIGURATION_Release]
+[GENERAL_DATA_CONFIGURATION_SESSION_Debug_DefaultSession]
+[SESSION_DATA_CONFIGURATION_SESSION_Debug_DefaultSession]
+"MEMORY_MAPPING_OPTIONS" "" 
+[GENERAL_DATA_CONFIGURATION_SESSION_Release_DefaultSession]
+[SESSION_DATA_CONFIGURATION_SESSION_Release_DefaultSession]
+"MEMORY_MAPPING_OPTIONS" "" 
+[EXT_DEBUGGER_INFO]
+0 "" "" "" "" 
+[END]

@@ -1,0 +1,8 @@
+"C:\WorkSpace\hosv4-practice\h8sample\crt0.src"
+-cpu=300HN
+-debug
+-object="C:\WorkSpace\hosv4-practice\h8sample\Debug\crt0.obj"
+-nolist
+-nologo
+-chgincpath
+-errorpath

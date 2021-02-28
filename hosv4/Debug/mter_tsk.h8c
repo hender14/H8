@@ -1,0 +1,10 @@
+-cpu=300HN
+-include="C:\WorkSpace\hosv4\hosv4\include\","C:\WorkSpace\hosv4\hosv4\include\h83"
+-lang=c
+-object="C:\WorkSpace\hosv4\hosv4\Debug\mter_tsk.obj"
+-outcode=sjis
+-debug
+-nolist
+-chgincpath
+"C:\WorkSpace\hosv4\hosv4\src\mknl\tsk\mter_tsk.c"
+-nologo

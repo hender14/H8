@@ -1,0 +1,10 @@
+-cpu=300HN
+-include="C:\WorkSpace\hosv4\hosv4\include\","C:\WorkSpace\hosv4\hosv4\include\h83"
+-lang=c
+-object="C:\WorkSpace\hosv4\hosv4\Debug\fget_imk.obj"
+-outcode=sjis
+-debug
+-nolist
+-chgincpath
+"C:\WorkSpace\hosv4\hosv4\src\h83\fget_imk.c"
+-nologo

@@ -1,0 +1,23 @@
+[HIMDBVersion]
+2.0
+[DATABASE_VERSION]
+"1.2" 
+[CURRENT_PROJECT]
+"h8sample" 
+[GENERAL_DATA]
+[BREAKPOINTS]
+[OPEN_WORKSPACE_FILES]
+"C:\WorkSpace\BeautoRoverRTOS\BeautoRover\motor.h" 
+"C:\WorkSpace\hosv4-practice\h8sample\h83664f.h" 
+"C:\WorkSpace\hosv4-practice\h8sample\motor.c" 
+"C:\WorkSpace\hosv4-practice\h8sample\sample.c" 
+"C:\WorkSpace\hosv4-practice\h8sample\sample.h" 
+[WORKSPACE_FILE_STATES]
+"C:\WorkSpace\BeautoRoverRTOS\BeautoRover\motor.h" 0 0 587 780 0 3 
+"C:\WorkSpace\hosv4-practice\h8sample\h83664f.h" 0 0 587 780 0 2 
+"C:\WorkSpace\hosv4-practice\h8sample\motor.c" 130 130 337 507 0 4 
+"C:\WorkSpace\hosv4-practice\h8sample\sample.c" -8 -31 587 780 1 0 
+"C:\WorkSpace\hosv4-practice\h8sample\sample.h" 0 0 697 787 0 1 
+[LOADED_PROJECTS]
+"h8sample" 
+[END]

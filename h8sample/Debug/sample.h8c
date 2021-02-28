@@ -1,0 +1,10 @@
+-cpu=300HN
+-include="C:\WorkSpace\hosv4-practice\hosv4\include","C:\WorkSpace\hosv4-practice\hosv4\include\h83","C:\WorkSpace\hosv4-practice\h8sample"
+-lang=c
+-object="C:\WorkSpace\hosv4-practice\h8sample\Debug\sample.obj"
+-outcode=sjis
+-debug
+-nolist
+-chgincpath
+"C:\WorkSpace\hosv4-practice\h8sample\sample.c"
+-nologo
