@@ -28,8 +28,6 @@ void MAIN(VP_INT exinf);
 void Main_init(VP_INT exinf);
 void TASK1(VP_INT exinf);
 void TASK2(VP_INT exinf);
-void CYC1(VP_INT exinf);
-void ALM1(VP_INT exinf);
 //-----------------------------------------------------------------------------
 //------------------------------------------------
 
